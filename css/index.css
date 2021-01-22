@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #111111;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5cdaeba6;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1,
+h2 {
+    margin: 5px;
+}
+
+.container {
+    width: 90%;
+    border-bottom: 2px solid teal;
+    padding: 10px;
+    background: white;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+header {
+    width: 90%;
+    border-bottom: 2px solid teal;
+}
+
+.members {
+    border-bottom: 2px solid teal;
+}
+
+.member-names {
+    list-style-type: none;
+    margin: 5px;
+    display: flex;
+}
+
+.member-names li {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid teal;
+    margin: 5px;
+}
+
+.project-desc {
+    border-bottom: 2px solid teal;
+}
+
+.desc {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid teal;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.scene {
+    border-bottom: 2px solid teal;
+}
+
+.scenes {
+    list-style-type: none;
+    margin: 5px;
+    display: flex;
+}
+
+.scene-card {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid teal;
+    margin: 5px;
+}
+
+.scene-title {
+    border-bottom: 2px solid teal;
+}
+
+.scene-desc {
+    margin-top: 10px;
+}
+
+.storyboard {
+    border-bottom: 2px solid teal;
+}
+
+.storyboard ul {
+    list-style-type: none;
+    margin: 5px;
+    display: flex;
+    width: 100%;
+}
+
+.storyboard ul li {
+    width: 30%;
+}
