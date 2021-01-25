@@ -97,16 +97,25 @@ header {
 }
 
 .storyboard {
-    border-bottom: 2px solid teal;
+    /* border-bottom: 2px solid teal; */
 }
 
-.storyboard ul {
+.storyboard-list {
     list-style-type: none;
     margin: 5px;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
-.storyboard ul li {
+.storyboard-list-item {
     width: 30%;
+    padding: 10px;
+    border: 2px solid teal;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.storyboard-img {
+    width: 100%;
 }
