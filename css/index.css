@@ -50,6 +50,7 @@ header {
     list-style-type: none;
     margin: 5px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .member-names li {
@@ -79,6 +80,7 @@ header {
     list-style-type: none;
     margin: 5px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .scene-card {
@@ -118,4 +120,10 @@ header {
 
 .storyboard-img {
     width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .storyboard-list-item {
+        width: 100%;
+    }
 }
