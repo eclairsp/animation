@@ -27,6 +27,18 @@ h2 {
     margin: 5px;
 }
 
+.chris {
+    border: 2px solid aqua !important;
+}
+
+.julia {
+    border: 2px solid red !important;
+}
+
+.prab {
+    border: 2px solid purple !important;
+}
+
 .container {
     width: 90%;
     border-bottom: 2px solid teal;
@@ -56,8 +68,8 @@ header {
 .member-names li {
     border-radius: 10px;
     padding: 10px;
-    border: 2px solid teal;
     margin: 5px;
+    border: 2px solid black;
 }
 
 .project-desc {
@@ -108,6 +120,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .storyboard-list-item {
@@ -120,6 +134,12 @@ header {
 
 .storyboard-img {
     width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .storyboard-list-item {
+        width: 38%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
